@@ -1,0 +1,149 @@
+:root {
+  --color-bg: #a2becd;
+  --color-text-main: #000000;
+  --color-primary: #FFFF00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-trivia{
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-nombre{
+  font-family: HK Grotesk;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  align-items: center;
+  cursor: pointer;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #000;
+}
+
+body {
+  font-family: HK Grotesk;
+  background-color: var(--color-bg);
+}
+
+.wrapper {
+  min-height: var(--wrapper-height);
+  display: grid;
+  place-items: center;
+  margin: 0 1rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Very light scaling for our illustration */
+.title {
+  color: #2364b1;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 105%;
+  margin: 0;
+}
+
+/* Very light scaling for our illustration */
+.illustration {
+  max-width: 100%;
+  max-height: var(--image-max-width);
+  margin-top: var(--image-margin);
+}
+
+/* Button - Add it from the README instructions */
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+
+/* Subheading */
+h2 {
+  color: #5670b8;
+}
+
+/* Interactive image */
+.illustration:active {
+  transform: translateY(5px);
+}
+
+/*Css Categoria*/
+.form {
+  background-color: #6ea9c9;
+  width: min( 60rem, 100% ); /** Utilizar el valor más pequeño **/
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+<<<<<<< Updated upstream
+
+.form {
+  background-color: white;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.form fieldset {
+  border: none;
+}
+
+.pregunta-area{
+  display: grid;
+  background-color: #2e91c6;
+  margin: 1rem 0rem;
+  padding: 2rem;
+  border-radius: 1rem;
+
+}
+
+.form legend {
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.boton-comprobacion{
+  display: flex;
+  justify-content: center;
+}
+
+div.boton-comprobacion > input[type="submit"]{
+  background-color: #ffffff;
+  border-color: #2364b1;
+  border-width: 3px;
+  color:#2364b1;
+  text-transform: uppercase;
+}
+
+.respuestas-area{
+  padding: 1rem 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(29, 29, 29);
+
+}
