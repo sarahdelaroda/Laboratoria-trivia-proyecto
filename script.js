@@ -52,7 +52,7 @@ function checkCine(){
 
     if(aciertos==3){
         alert('¡Felicitaciones has acertado todo!')
-    }else if(acierto<3){
+    }else if(aciertos<3){
         alert(`Tienes ${aciertos} aciertos`);
     }else if(aciertos==0){
         alert('Suerte para la proxima, no has acertado ninguna')
