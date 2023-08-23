@@ -107,7 +107,7 @@ h2 {
 
 .pregunta-area{
   display: grid;
-  background-color: #2e91c6;
+  background-color: #3485b1;
   margin: 1rem 0rem;
   padding: 2rem;
   border-radius: 1rem;
@@ -120,6 +120,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 2rem;
+  color: aliceblue;
 }
 
 .boton-comprobacion{
