@@ -1,7 +1,5 @@
 :root {
   --color-bg: #a2becd;
-  --color-text-main: #000000;
-  --color-primary: #FFFF00;
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
@@ -97,10 +95,8 @@ h2 {
   border-radius: 1rem;
 }
 
-<<<<<<< Updated upstream
-
 .form {
-  background-color: white;
+  background-color: #5da3c9;
   margin: 0 auto;
   padding: 2rem;
   border-radius: 1rem;
@@ -145,5 +141,30 @@ div.boton-comprobacion > input[type="submit"]{
   flex-direction: row;
   justify-content: space-between;
   color: rgb(29, 29, 29);
+}
 
+.categorias{
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+}
+
+.categoria-cine, .categoria-animals{
+  background-color: #a4d8f4;
+  margin: 1rem 0rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.imagenes-cat{
+  max-width: 200px;
+}
+
+.categoria-cine >h2 , .categoria-animals >h2 {
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
 }
