@@ -52,13 +52,13 @@ function checkCine(){
             document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
         }
 
-    if(aciertos==3){
-        alert('¡Felicitaciones has acertado todo!')
-    }else if(aciertos<3 && aciertos>0){
-        alert(`Tienes ${aciertos} aciertos`);
-    }else if(aciertos==0){
-        alert('Suerte para la proxima, no has acertado ninguna')
-    }
+        if(aciertos==3){
+            alert('¡Felicitaciones has acertado todo. Tu puntaje es de 3!')
+        }else if(aciertos<3 && aciertos>0){
+            alert(`Tienes ${aciertos} puntos. Sigue intentando`);
+        }else if(aciertos==0){
+            alert('Suerte para la proxima, no has acertado ninguna')
+        }
         
 }
 
@@ -109,9 +109,9 @@ function checkAnimales(){
         }
 
     if(aciertos==3){
-        alert('¡Felicitaciones has acertado todo!')
+        alert('¡Felicitaciones has acertado todo. Tu puntaje es de 3!')
     }else if(aciertos<3 && aciertos>0){
-        alert(`Tienes ${aciertos} aciertos`);
+        alert(`Tienes ${aciertos} puntos. Sigue intentando`);
     }else if(aciertos==0){
         alert('Suerte para la proxima, no has acertado ninguna')
     }
