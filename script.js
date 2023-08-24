@@ -75,9 +75,9 @@ function checkAnimales(){
             aciertos=aciertos+1;
             document.getElementById("pregunta-area-a1").style.backgroundColor="#86e4a8";
         }else if(gpbtn212.checked==true){
-            document.getElementById("pregunta-area-a2").style.backgroundColor="#f49c90";
+            document.getElementById("pregunta-area-a1").style.backgroundColor="#f49c90";
         }else if(gpbtn213.checked==true){
-            document.getElementById("pregunta-area-a3").style.backgroundColor="#f49c90";
+            document.getElementById("pregunta-area-a1").style.backgroundColor="#f49c90";
         }
     
      //comprobacion de pregunta 2
@@ -86,12 +86,12 @@ function checkAnimales(){
     var gpbtn223=document.getElementById("respuestaAnimales23");
 
         if(gpbtn221.checked==true){
-            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
+            document.getElementById("pregunta-area-a2").style.backgroundColor="#f49c90";
         }else if(gpbtn222.checked==true){
-            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
+            document.getElementById("pregunta-area-a2").style.backgroundColor="#f49c90";
         }else if(gpbtn223.checked==true){
             aciertos=aciertos+1;
-            document.getElementById("pregunta-area-2").style.backgroundColor="#86e4a8";
+            document.getElementById("pregunta-area-a2").style.backgroundColor="#86e4a8";
         }
 
     //comprobacion de pregunta 3
@@ -101,10 +101,11 @@ function checkAnimales(){
 
         if(gpbtn231.checked==true){
             aciertos=aciertos+1;
+            document.getElementById("pregunta-area-a3").style.backgroundColor="#86e4a8";
         }else if(gpbtn232.checked==true){
-            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
+            document.getElementById("pregunta-area-a3").style.backgroundColor="#f49c90";
         }else if(gpbtn233.checked==true){
-            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
+            document.getElementById("pregunta-area-a3").style.backgroundColor="#f49c90";
         }
 
     if(aciertos==3){
