@@ -54,6 +54,60 @@ function checkCine(){
         alert('¡Felicitaciones has acertado todo!')
     }else if(aciertos<3){
         alert(`Tienes ${aciertos} aciertos`);
+    }else if(aciertos<3 &&aciertos>0){
+        alert('Suerte para la proxima, no has acertado ninguna')
+    }
+        
+}
+
+
+function checkAnimales(){
+    var gpbtn211=document.getElementById("respuestaAnimales11");
+    var gpbtn212=document.getElementById("respuestaAnimales12");
+    var gpbtn213=document.getElementById("respuestaAnimales13");
+    var aciertos=0;
+    var errores=0;
+    
+    //comprobacion de pregunta 1
+        if(gpbtn211.checked==true){
+            aciertos=aciertos+1;
+            //document.getElementById("pregunta-area-1").style.backgroundColor="#";
+        }else if(gpbtn212.checked==true){
+            errores=errores+1;
+        }else if(gpbtn213.checked==true){
+            errores=errores+1;
+        }
+    
+     //comprobacion de pregunta 2
+    var gpbtn221=document.getElementById("respuestaAnimales21");
+    var gpbtn222=document.getElementById("respuestaAnimales22");
+    var gpbtn223=document.getElementById("respuestaAnimales23");
+
+        if(gpbtn221.checked==true){
+            errores=errores+1;
+        }else if(gpbtn222.checked==true){
+            errores=errores+1;
+        }else if(gpbtn223.checked==true){
+            aciertos=aciertos+1;
+        }
+
+    //comprobacion de pregunta 3
+    var gpbtn231=document.getElementById("respuestaAnimales31");
+    var gpbtn232=document.getElementById("respuestaAnimales32");
+    var gpbtn233=document.getElementById("respuestaAnimales33");
+
+        if(gpbtn231.checked==true){
+            aciertos=aciertos+1;
+        }else if(gpbtn232.checked==true){
+            errores=errores+1;
+        }else if(gpbtn233.checked==true){
+            errores=errores+1;
+        }
+
+    if(aciertos==3){
+        alert('¡Felicitaciones has acertado todo!')
+    }else if(aciertos<3 &&aciertos>0){
+        alert(`Tienes ${aciertos} aciertos`);
     }else if(aciertos==0){
         alert('Suerte para la proxima, no has acertado ninguna')
     }
