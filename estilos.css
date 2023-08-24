@@ -169,3 +169,10 @@ div.boton-comprobacion > input[type="submit"]{
   color: rgb(255, 255, 255);
   font-size: xx-large;
 }
+
+.abajo{
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  padding-top: 1rem;
+}

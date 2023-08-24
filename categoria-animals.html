@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    
-        <form action="" class="form">
+    <div class="form">
+        <form action="">
             <fieldset>
                 <legend>Contesta las siguientes preguntas correctamente</legend>
                 
@@ -38,19 +38,18 @@
                         <input type="radio" name="respuesta3" id="respuestaAnimales31">Medusa
                         <input type="radio" name="respuesta3" id="respuestaAnimales32">Coral
                         <input type="radio" name="respuesta3" id="respuestaAnimales33">Calamar
-                    </div>
-                        
+                    </div> 
                 </div> 
-        
             </fieldset>
             
         </form>
         <div class="boton-comprobacion">
             <input onclick="checkAnimales()" type="submit" value="Comprobar Respuestas">
         </div>
-        
-        <div>
-            <a href="./index.html"> <button>Volver a Jugar</button></a>
+    </div>
+
+        <div class="abajo">
+            <a href="./index.html"> <button class="total">Volver a Jugar</button></a>
         </div>
         <script src="./script.js"></script>
 </body>
