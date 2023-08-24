@@ -17,11 +17,11 @@ function checkCine(){
     //comprobacion de pregunta 1
         if(gpbtn11.checked==true){
             aciertos=aciertos+1;
-            document.getElementById("pregunta-area-1").style.backgroundColor="#";
+            document.getElementById("pregunta-area-1").style.backgroundColor="#86e4a8";
         }else if(gpbtn12.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-1").style.backgroundColor="#f49c90";
         }else if(gpbtn13.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-1").style.backgroundColor="#f49c90";
         }
     
      //comprobacion de pregunta 2
@@ -31,10 +31,11 @@ function checkCine(){
 
         if(gpbtn21.checked==true){
             aciertos=aciertos+1;
+            document.getElementById("pregunta-area-2").style.backgroundColor="#86e4a8";
         }else if(gpbtn22.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-2").style.backgroundColor="#f49c90";
         }else if(gpbtn23.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-2").style.backgroundColor="#f49c90";
         }
 
     //comprobacion de pregunta 3
@@ -44,17 +45,18 @@ function checkCine(){
 
         if(gpbtn31.checked==true){
             aciertos=aciertos+1;
+            document.getElementById("pregunta-area-3").style.backgroundColor="#86e4a8";
         }else if(gpbtn32.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
         }else if(gpbtn33.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
         }
 
     if(aciertos==3){
         alert('¡Felicitaciones has acertado todo!')
-    }else if(aciertos<3){
+    }else if(aciertos<3 && aciertos>0){
         alert(`Tienes ${aciertos} aciertos`);
-    }else if(aciertos<3 &&aciertos>0){
+    }else if(aciertos==0){
         alert('Suerte para la proxima, no has acertado ninguna')
     }
         
@@ -71,11 +73,11 @@ function checkAnimales(){
     //comprobacion de pregunta 1
         if(gpbtn211.checked==true){
             aciertos=aciertos+1;
-            //document.getElementById("pregunta-area-1").style.backgroundColor="#";
+            document.getElementById("pregunta-area-2").style.backgroundColor="#86e4a8";
         }else if(gpbtn212.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
         }else if(gpbtn213.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
         }
     
      //comprobacion de pregunta 2
@@ -84,11 +86,12 @@ function checkAnimales(){
     var gpbtn223=document.getElementById("respuestaAnimales23");
 
         if(gpbtn221.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
         }else if(gpbtn222.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
         }else if(gpbtn223.checked==true){
             aciertos=aciertos+1;
+            document.getElementById("pregunta-area-2").style.backgroundColor="#86e4a8";
         }
 
     //comprobacion de pregunta 3
@@ -99,14 +102,14 @@ function checkAnimales(){
         if(gpbtn231.checked==true){
             aciertos=aciertos+1;
         }else if(gpbtn232.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
         }else if(gpbtn233.checked==true){
-            errores=errores+1;
+            document.getElementById("pregunta-area-3").style.backgroundColor="#f49c90";
         }
 
     if(aciertos==3){
         alert('¡Felicitaciones has acertado todo!')
-    }else if(aciertos<3 &&aciertos>0){
+    }else if(aciertos<3 && aciertos>0){
         alert(`Tienes ${aciertos} aciertos`);
     }else if(aciertos==0){
         alert('Suerte para la proxima, no has acertado ninguna')
