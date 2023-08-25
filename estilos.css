@@ -88,14 +88,6 @@ h2 {
 
 /*Css Categoria*/
 .form {
-  background-color: #6ea9c9;
-  width: min( 60rem, 100% ); /** Utilizar el valor más pequeño **/
-  margin: 0 auto;
-  padding: 2rem;
-  border-radius: 1rem;
-}
-
-.form {
   background-color: #5da3c9;
   margin: 0 auto;
   padding: 2rem;
